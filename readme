@@ -1,0 +1,33 @@
+A digital birthday greeting card that has to be coded first to be seen
+
+<< Sender >>
+i   edit the value of the greeting varibale in hb2yencoder.py to jot down the greeting message 
+ii  safe
+iii run > python3 hb2y.py
+iv. Copy value of the greeting message string to text 1, copy value of the picture string to text 2
+v.  Send below instructions to the recipient
+
+
+OUR MISSION SHOULD YOU CHOOSE TO ACCEPT IT IS TO PRINT THE MESSAGE
+
+text 1
+CmVjaWxBIGV2b2wgLHRzZWIgZWh0IGxsQQoKc2Ryb3cgZWNpbiBlcm9tIGVtb3MgLHNkcm93IGVjaW4gZXJvbSAsc2Ryb3cgZWNpbiBlcm9tCgouZWNhZiBydW95IG5vIGVsaW1zIGEgc3lhd2xhIGRuYSB5dGlyZXBzb3JwICxodGxhZWggZG9vZyB1b3kgaHNpdyBldyAwMDEgdHhlbiBlaHQgcm9GCiAheWFkaHRyaWIgaHQwMDEgcnVveSBvdCB0c2ViIGVodCBsbEEKCixib0IgcmFlRA==
+
+text 2
+CiAgICwtLgogICB8IHwKICAgfCAiLS0uICAsLS0uLS4sLS4tLS4gLC0uLS0uICwtLiAsLS4KICAgfCAsLS4gXC8gLC0uIHx8ICwtLiBcfCAsLS4gXHwgfCB8IHwKICAgfCB8IHwgfFwgYC0nIHx8IGAtJyAvfCBgLScgL3wgYC0nIHwKICAgYC0nIGAtJyBgLS0nLSd8IC4tLScgfCAuLS0nICBgLS0uIHwKICAgICAgICAgICAgICAgICB8IHwgICAgfCB8ICAgICAgICB8IHwKICAgICAgICAgICAgICAgICBgLScgICAgYC0nICAgICAgICBgLScKLC0uICAgICBfICAgICAgICwtLiAgLC0uICAgICAgICAsLS4KfCB8ICAgIChfKSAgICAgIHwgfF8gfCB8ICAgICAgICB8IHwKfCAiLS0uICwtLiwtLi0tLnwgIF8pfCAiLS0uICAsLS0iIHwgLC0tLi0uLC0uICwtLgp8ICwtLiBcfCB8fCAsLS4vfCB8ICB8ICwtLiBcLyAsLS4gfC8gLC0uIHx8IHwgfCB8CnwgYC0nIC98IHx8IHwgICB8IHwgIHwgfCB8IHxcIGAtJyB8XCBgLScgfHwgYC0nIHwKIi0nLS0nIGAtJ2AtJyAgIGAtJyAgYC0nIGAtJyBgLS0nLScgYC0tJy0nIGAtLS4gfAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfCB8CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBgLQo=
+
+
+0. Use a language of your choice
+1. save text1 and text 2 to variables
+2. base64 decode text 1 to byte object
+3. decode the byte object to utf-8 string
+4. reverse the string 
+5. save result in variable _m
+
+6. base64 decode text 2 to byte object
+7. decode the byte object to utf-8 string
+8. save result to variable _p 
+
+9. print _m 
+10. print blank line
+11. print _p
